@@ -50,5 +50,5 @@ Cityscapes
 │   │   │   │  　　https://drive.google.com/drive/folders/1tOXxBJwdky2efwK5kTDrjJpcmQWCGOPr
 │   │   │   │　　```
 │   │   │   │
-├───├───│───├── test(無し)
+├───├───├── test(無し)
 ```
