@@ -1,7 +1,7 @@
 ### Cityscapes Folder Structure
 
-Cityscapesデータセットに合わせ、下記構造でデータを配置する。
-データは
+Cityscapesデータセットの構造をベースに、下記のようにデータを配置する。<br>
+データは各リンク先よりダウンロードする。
 
 ```
 Cityscapes
@@ -13,8 +13,8 @@ Cityscapes
 │   │   │   │   ├── train_00001.jpg
 │   │   │   │   ├── ...
 │   │   │   │　　
-│   │   │   │   ```bash
-│   │   │   │  　　> !wget https://drive.google.com/drive/folders/1Y6xPVDEH11moTHszL_dKrvdCC0M4tPZ?usp=sharing
+│   │   │   │   ```データリンク
+│   │   │   │  　　https://drive.google.com/drive/folders/1Y6xPV-DEH11moTHszL_dKrvdCC0M4tPZ
 │   │   │   │　　```
 │   │   │   │
 │   │   ├── val
@@ -23,6 +23,9 @@ Cityscapes
 │   │   │   │   ├── train_1794.jpg
 │   │   │   │   ├── ...
 │   │   │   │
+│   │   │   │   ```データリンク
+│   │   │   │  　　https://drive.google.com/drive/folders/1Hcr7Z-utv16bnjleE6QpzSwHnPr85DrD
+│   │   │   │　　```
 │   │   │   │
 │   │   ├── test(無し)
 ├── gtFine_trainvaltest（アノテーションデータ　png形式）
@@ -32,7 +35,10 @@ Cityscapes
 │   │   │   │   ├── train_00000.png
 │   │   │   │   ├── train_00001.png
 │   │   │   │   ├── ...
-│   │   │   │
+│   │   │   │　　
+│   │   │   │   ```データリンク
+│   │   │   │  　　https://drive.google.com/drive/folders/1bmxDijOytpfUsqJfNtkLWD_vRHBlRhZS
+│   │   │   │　　```
 │   │   │   │
 │   │   ├── val
 │   │   │   ├── val_1
@@ -40,6 +46,9 @@ Cityscapes
 │   │   │   │   ├── train_1794.png
 │   │   │   │   ├── ...
 │   │   │   │
+│   │   │   │   ```データリンク
+│   │   │   │  　　https://drive.google.com/drive/folders/1tOXxBJwdky2efwK5kTDrjJpcmQWCGOPr
+│   │   │   │　　```
 │   │   │   │
-│   │   ├── test(無し)
+├───├───│───├── test(無し)
 ```
